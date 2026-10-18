@@ -7,6 +7,7 @@ A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its
 - Completed a read-only infrastructure review and proposed an independent staging environment.
 - Pinned source releases and prepared checks for TLS, backup restoration, queue recovery and accessibility.
 - Validated provider connectivity boundaries and kept real-provider access subject to location and account eligibility.
+- Confirmed the current direct network path separately from any authenticated provider test.
 
 **Status:** planning and verification only. No staging infrastructure or application was deployed. Public notes contain no host addresses, credentials, customer data or private configuration.
 
