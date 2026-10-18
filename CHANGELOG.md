@@ -6,6 +6,7 @@
 - Improved limited reviewer access without granting edit rights or allowing self-approval.
 - Passed 48 isolated database tests and synthetic real-backend PWA browser checks.
 - Left the existing private preview unchanged pending owner enrollment and an independent reviewer; no customer-panel access or production deployment occurred.
+- Extended synthetic real-backend browser validation for two-administrator review, rollback and invitation workflows; DEV release gates remain unchanged.
 
 ## 2026-10-18 — Phase 1O isolated administration and provider preparation
 
