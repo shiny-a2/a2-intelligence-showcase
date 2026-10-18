@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-18 — Private preview sign-in simplification
+
+- Enabled one credential for the restricted development preview and confirmed owner sign-in, administrator access and logout over HTTPS.
+- Retained isolated synthetic data and fake AI; the simpler authentication mode is not approved for staging or production.
+
 ## 2026-10-18 — Private preview enrollment correction
 
 - Corrected the restricted development enrollment limiter so proxy visitors no longer share one attempt counter.
