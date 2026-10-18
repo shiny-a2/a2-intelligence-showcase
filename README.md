@@ -2,6 +2,15 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Phase 1J update · 2026-10-18
+
+- Reviewed host capacity and proposed separate development, staging, demo and production boundaries.
+- Added an offline deployment preflight that rejects mismatched environment identities and state references.
+- Confirmed that the shared assistant engine still uses a fake provider in isolated tests; real-provider operations require separate eligibility and release gates.
+- Documented a shared PWA, central administration and optional Telegram integration path.
+
+**Status:** the current host does not meet the capacity gate for all four environments. No environment was provisioned, and no live application or bot was changed.
+
 ## Phase 1I update · 2026-10-18
 
 - Completed a read-only infrastructure review and proposed an independent staging environment.

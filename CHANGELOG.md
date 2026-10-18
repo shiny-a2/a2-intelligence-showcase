@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-18 — Phase 1J
+
+- Added an offline environment-identity preflight with cross-environment rejection tests.
+- Updated capacity, isolation and provider-readiness planning from read-only observations.
+- Kept new environment provisioning blocked pending capacity and approval gates.
+
 ## 2026-10-18 — Phase 1I
 
 - Reviewed existing infrastructure without changing live systems.
