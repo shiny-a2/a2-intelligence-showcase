@@ -5,9 +5,9 @@ A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its
 ## Phase 1O isolated update · 2026-10-18
 
 - Added a clearer review sequence for assistant configuration: draft, submit, independent approval, publication and reviewable rollback.
-- Added guided synthetic identity administration, including invitations, role and membership requests, suspension and session controls.
-- Prepared an optional server-side AI provider adapter with mocked streaming and usage tests. The live private preview still uses the fake provider; no paid provider request or real credential was used.
-- Passed 46 isolated tests against disposable PostgreSQL and reviewed responsive admin and chat screens in light and dark themes.
+- Added a separate draft, submit, independent approval and publication sequence for synthetic identity changes, with a reviewed reversal path for reversible changes.
+- Prepared an optional server-side AI provider adapter and an extension point for external workers; both were tested with synthetic responses. The live private preview still uses the fake provider; no paid provider request or real credential was used.
+- Passed 47 isolated tests against disposable PostgreSQL and reviewed responsive admin, identity and chat screens in light and dark themes. Corrected a mobile navigation visibility issue.
 
 **Status:** source and reports are in private development. The existing restricted preview remains on its previous release while independent administrator and accessibility gates are completed. No staging or production rollout occurred.
 

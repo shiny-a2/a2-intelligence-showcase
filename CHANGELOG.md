@@ -2,9 +2,9 @@
 
 ## 2026-10-18 — Phase 1O isolated administration and provider preparation
 
-- Added reviewable assistant configuration changes and guided synthetic identity requests in private source.
-- Added a disabled-by-default optional provider adapter and verified streaming and usage with mocked responses only.
-- Passed 46 isolated PostgreSQL tests and responsive light/dark browser checks.
+- Added reviewable assistant configuration changes and a separate approval and publication sequence for synthetic identity requests in private source.
+- Added a disabled-by-default optional provider adapter and a tenant-scoped extension point for external workers; tested with synthetic responses only.
+- Passed 47 isolated PostgreSQL tests, responsive light/dark browser checks and a mobile navigation visibility fix.
 - Kept the existing private preview on its previous release pending the remaining identity and accessibility gates; no real AI call or production deployment occurred.
 
 ## 2026-10-18 — Phase 1N private-preview experience
