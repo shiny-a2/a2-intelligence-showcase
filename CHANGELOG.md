@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-18 — Phase 1L controlled development
+
+- Added a private, resource-limited development runtime with synthetic identities and a fake provider.
+- Validated browser chat, isolation, quota denial and streaming recovery against that runtime.
+- Tested encrypted development backup restoration and migration rollback in disposable databases.
+- Kept public access, staging and production deployment outside this release.
+
 ## 2026-10-18 — Phase 1K correction
 
 - Corrected host attribution in earlier infrastructure and provider-readiness notes.
