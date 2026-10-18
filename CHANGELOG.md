@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-18 — Phase 1M private preview
+
+- Added a credential-gated development preview for the chat PWA and administration dashboard.
+- Added one-time owner enrollment and verified synthetic sign-in, two-step checks and administrator access rules.
+- Improved mobile admin tables and rapid navigation; tested light/dark browser layouts and encrypted backup restoration.
+- Kept public registration, paid providers, customer data and production deployment out of scope.
+
 ## 2026-10-18 — Phase 1L controlled development
 
 - Added a private, resource-limited development runtime with synthetic identities and a fake provider.
