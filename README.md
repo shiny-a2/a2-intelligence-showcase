@@ -2,6 +2,15 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Phase 1N update · 2026-10-18
+
+- Redesigned the Persian chat and administration preview around one responsive light/dark design system, clearer navigation, measured development indicators and contextual help.
+- Added guided administrative drafts and an eight-step assistant setup flow while retaining independent review and audit before activation.
+- Added tenant-scoped branding configuration and improved chat history, streaming feedback, offline state and mobile layouts.
+- Validated synthetic browser flows across phone, tablet and desktop layouts, then checked the restricted live development preview on phone and desktop. An integration permission issue found during live checking was corrected within development.
+
+**Status:** restricted development preview only. The commercial Persian font remains pending license confirmation and uses a temporary fallback. Production authentication, external AI providers, customer data, staging and production deployment are outside this update.
+
 ## Phase 1M update · 2026-10-18
 
 - Opened a credential-gated private preview of the Persian chat PWA and administration dashboard on an isolated development runtime.

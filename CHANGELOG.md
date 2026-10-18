@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-18 — Phase 1N private-preview experience
+
+- Reorganized administration, added guided assistant setup and improved Persian chat across responsive light/dark layouts.
+- Added configurable tenant presentation and validated live private-preview health and access boundaries.
+- Kept reviewed activation, development-only access and synthetic data restrictions in place; commercial font use awaits license confirmation.
+
 ## 2026-10-18 — Private preview sign-in simplification
 
 - Enabled one credential for the restricted development preview and confirmed owner sign-in, administrator access and logout over HTTPS.
