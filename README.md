@@ -2,6 +2,15 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Phase 1Q isolated identity update · 2026-10-19
+
+- Prepared one administrator sign-in tied to the existing owner identity, with an initial password change and two-step verification before privileged use.
+- Built a disabled-by-default standards-based sign-in pilot for future A2 products. Product-specific connections remain separate work and are not presented as live SSO.
+- Added explicit, time-limited product access checks and a clearer environment and workspace label in the administrator interface.
+- Passed 51 isolated database tests and synthetic browser checks for the first sign-in across mobile and desktop in both light and dark themes.
+
+**Status:** private source candidate only. The active development preview was not updated because the real owner has not completed two-step enrollment and release backup checks remain open. Sensitive changes still require independent review or a documented emergency process. No customer-panel access, paid provider, staging or production rollout was added.
+
 ## Phase 1P isolated security update · 2026-10-18
 
 - Prepared a guided two-step sign-in enrollment path for the private development administrator and tightened sensitive approval and publication checks.

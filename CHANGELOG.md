@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-19 — Phase 1Q isolated identity foundation
+
+- Prepared one owner administrator login, a first-sign-in password change, and scoped access for future connected products in private source.
+- Added a disabled-by-default sign-in pilot; no connected product is claimed live.
+- Passed 51 disposable-database tests and mobile/desktop light/dark browser checks.
+- Kept the development preview unchanged pending real owner two-step enrollment and release backup/restore gates.
+
 ## 2026-10-18 — Phase 1P isolated security gates
 
 - Prepared administrator two-step enrollment and strengthened approval and publication controls in private source.
