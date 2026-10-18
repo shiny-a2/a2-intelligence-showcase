@@ -4,7 +4,8 @@
 
 - Reorganized administration, added guided assistant setup and improved Persian chat across responsive light/dark layouts.
 - Added configurable tenant presentation and validated live private-preview health and access boundaries.
-- Kept reviewed activation, development-only access and synthetic data restrictions in place; commercial font use awaits license confirmation.
+- Added the owner-confirmed licensed Persian font to the restricted development preview and checked loading in responsive light/dark browser layouts.
+- Kept reviewed activation, development-only access and synthetic data restrictions in place.
 
 ## 2026-10-18 — Private preview sign-in simplification
 

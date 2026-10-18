@@ -8,8 +8,9 @@ A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its
 - Added guided administrative drafts and an eight-step assistant setup flow while retaining independent review and audit before activation.
 - Added tenant-scoped branding configuration and improved chat history, streaming feedback, offline state and mobile layouts.
 - Validated synthetic browser flows across phone, tablet and desktop layouts, then checked the restricted live development preview on phone and desktop. An integration permission issue found during live checking was corrected within development.
+- Added the existing IRANYekan font after the owner confirmed its A2 license. Confirmed actual font loading and layout in the restricted preview at phone, tablet and desktop widths, in light and dark themes.
 
-**Status:** restricted development preview only. The commercial Persian font remains pending license confirmation and uses a temporary fallback. Production authentication, external AI providers, customer data, staging and production deployment are outside this update.
+**Status:** restricted development preview only. The licensed font stays in private source and is not published in this showcase. Production authentication, external AI providers, customer data, staging and production deployment are outside this update.
 
 ## Phase 1M update · 2026-10-18
 
