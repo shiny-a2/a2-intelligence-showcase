@@ -2,6 +2,14 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Phase 1K correction · 2026-10-18
+
+- Corrected an earlier infrastructure identity error: prior high-load measurements and a provider response test were attributed to the wrong host. They must not be used as evidence for the A2 Central server.
+- Rechecked the actual A2 host with read-only measurements. Its current CPU and memory load is low; a larger host may still be needed for four new isolated environments.
+- Recorded separate capacity, backup, database and web-service findings, plus a safe handoff for the other host.
+
+**Status:** no infrastructure or application changes were made. The capacity upgrade remains a planning decision requiring load testing and separate approval.
+
 ## Phase 1J update · 2026-10-18
 
 - Reviewed host capacity and proposed separate development, staging, demo and production boundaries.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-18 — Phase 1K correction
+
+- Corrected host attribution in earlier infrastructure and provider-readiness notes.
+- Revalidated the actual A2 host using read-only capacity and service diagnostics.
+- Separated current low utilization from future four-environment sizing; no provisioning or deployment occurred.
+
 ## 2026-10-18 — Phase 1J
 
 - Added an offline environment-identity preflight with cross-environment rejection tests.
