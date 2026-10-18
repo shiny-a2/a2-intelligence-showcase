@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-18 — Phase 1O isolated administration and provider preparation
+
+- Added reviewable assistant configuration changes and guided synthetic identity requests in private source.
+- Added a disabled-by-default optional provider adapter and verified streaming and usage with mocked responses only.
+- Passed 46 isolated PostgreSQL tests and responsive light/dark browser checks.
+- Kept the existing private preview on its previous release pending the remaining identity and accessibility gates; no real AI call or production deployment occurred.
+
 ## 2026-10-18 — Phase 1N private-preview experience
 
 - Reorganized administration, added guided assistant setup and improved Persian chat across responsive light/dark layouts.
