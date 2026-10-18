@@ -2,6 +2,14 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Phase 1I update · 2026-10-18
+
+- Completed a read-only infrastructure review and proposed an independent staging environment.
+- Pinned source releases and prepared checks for TLS, backup restoration, queue recovery and accessibility.
+- Validated provider connectivity boundaries and kept real-provider access subject to location and account eligibility.
+
+**Status:** planning and verification only. No staging infrastructure or application was deployed. Public notes contain no host addresses, credentials, customer data or private configuration.
+
 ## Phase 1H update · 2026-10-18
 
 - Added an isolated, authenticated licensing link and tested signed revocation delivery, retry and tenant separation.
