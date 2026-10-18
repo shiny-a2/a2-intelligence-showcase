@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-18 — Private preview enrollment correction
+
+- Corrected the restricted development enrollment limiter so proxy visitors no longer share one attempt counter.
+- Renewed the one-time owner invitation; real owner activation remains pending.
+- Confirmed the correction with synthetic tests; no production rollout or real AI usage is claimed.
+
 ## 2026-10-18 — Phase 1M private preview
 
 - Added a credential-gated development preview for the chat PWA and administration dashboard.

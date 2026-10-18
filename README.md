@@ -6,6 +6,7 @@ A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its
 
 - Opened a credential-gated private preview of the Persian chat PWA and administration dashboard on an isolated development runtime.
 - Added a one-time owner enrollment flow with strong password and two-step verification; owner activation remains pending.
+- Corrected enrollment throttling behind the proxy; synthetic checks passed and the owner invitation was renewed.
 - Tested synthetic chat, conversation history, private administration and responsive light/dark layouts. Improved mobile table navigation and handled rapid admin navigation safely.
 - Rechecked encrypted development backup restoration and kept production services and customer data separate.
 
