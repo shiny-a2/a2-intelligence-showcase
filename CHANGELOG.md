@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-18 — Phase 1P isolated security gates
+
+- Prepared administrator two-step enrollment and strengthened approval and publication controls in private source.
+- Improved limited reviewer access without granting edit rights or allowing self-approval.
+- Passed 48 isolated database tests and synthetic real-backend PWA browser checks.
+- Left the existing private preview unchanged pending owner enrollment and an independent reviewer; no customer-panel access or production deployment occurred.
+
 ## 2026-10-18 — Phase 1O isolated administration and provider preparation
 
 - Added reviewable assistant configuration changes and a separate approval and publication sequence for synthetic identity requests in private source.
