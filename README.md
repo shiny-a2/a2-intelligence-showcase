@@ -2,6 +2,15 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Phase 1H update · 2026-10-18
+
+- Added an isolated, authenticated licensing link and tested signed revocation delivery, retry and tenant separation.
+- Added reviewed identity administration, one-time account recovery with a test delivery adapter, and key rotation controls.
+- Exercised the PWA against isolated backend services in light and dark themes at mobile and desktop widths.
+- Recorded deployment gates for independent staging, including secrets, monitoring, recovery and accessibility.
+
+**Status:** isolated engineering validation. Independent staging and production deployment are not approved. No customer information, credentials or private infrastructure is included here.
+
 ## Phase 1G update · 2026-10-18
 
 - Validated a signed licensing contract across PHP and TypeScript with synthetic fixtures.

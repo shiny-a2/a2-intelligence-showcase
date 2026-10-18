@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-18 — Phase 1H
+
+- Validated authenticated licensing and revocation flow in an isolated cross-service test.
+- Added identity administration and account recovery safeguards with synthetic users.
+- Expanded real-browser PWA and security gate evidence; staging remains pending.
+
 ## 2026-10-18 — Phase 1G isolated update
 
 Added cross-language licensing checks and central web login with two-step verification and recovery. These changes make identity and entitlement behavior easier to validate before staging. Local tests used synthetic identities and disposable keys; no live deployment is claimed.
