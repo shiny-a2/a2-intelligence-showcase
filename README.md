@@ -10,6 +10,10 @@ Validation used disposable databases and scripted model output: 67 shared-platfo
 
 **Status:** private source candidate, disabled by default; not a live shared-agent release. Existing Beauty photo/booking assistance is preserved pending its explicit compatibility migration. Production access and runtime activation, durable chat, an approval inbox and scheduled reports remain open. This work made no paid model request or production deployment.
 
+## One central AI foundation
+
+Chatbot behavior, business profiles, knowledge and memory, agent planning/tools, provider routing and AI cost/budget management are owned by the central A2 assistant platform. Education, Beauty and future products consume it through authorized business adapters. Remaining legacy paths and product-local policy copies are consolidation work; they are not separate AI development tracks. This is the architecture decision, not a claim that migration or live activation is complete.
+
 ## Phase 1Q isolated identity update · 2026-10-19
 
 - Prepared one administrator sign-in tied to the existing owner identity, with an initial password change and two-step verification before privileged use.
