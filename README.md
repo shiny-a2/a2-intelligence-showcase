@@ -2,6 +2,12 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Central agent tool catalogue · 2026-11-05
+
+The shared agent candidate now defines the descriptions, input shapes and product permission bindings for its CRM tools in one central A2 Intelligence catalogue. Beauty and Education advertise their available capability names; each product still checks the current user's authority and executes its own business records. Unknown or altered tool contracts are denied. This gives future products, including Learning, a single reviewed place to register tools while keeping their own domain data and permissions.
+
+The Intelligence build and 12 focused tests passed. The corresponding Beauty adapter passed 301 tests, and the Education adapter passed 14 synthetic demo checks. These are private source candidates, not activated shared agents. Learning's separate connection has not been verified here. The active limited Beauty demo secretary continues on its existing capped service; Beauty 0.30.6 improved its appointment suggestions and photo-review notice without activating the generic agent. Production entitlement, scoped runtime binding and recovery checks remain open before a shared rollout.
+
 ## Shared business agent candidate · 2026-11-04
 
 Education and Beauty now have a locally tested shared text-agent candidate. It reads authorized CRM reports, finds relevant records and proposes internal follow-up creation or completion. A proposal changes no business record until the current manager confirms the exact action; repeated confirmation reuses the recorded result. Student/customer guidance and manager tools share the existing assistant engine and provider routing.
