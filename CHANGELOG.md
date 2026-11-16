@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-17 — Read-only Beauty workbench candidate
+
+Added the shared daily-report capability and validated its real local HTTP consumer against current salon permissions. Central build/69 tests and the Beauty build/424 tests passed; final focused checks cover report scope and request identity. Disabled pending durable report replay and production policy/budget provisioning. No paid model or live rollout occurred.
+
 ## 2026-11-04 — shared business agent candidate
 
 Prepared shared text guidance, automatic scoped CRM reports and exact manager-approved follow-up creation/completion for Education and Beauty. Synthetic cross-product, regression and responsive interface checks passed. No live shared-agent activation or paid provider call occurred.

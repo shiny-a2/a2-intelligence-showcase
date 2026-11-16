@@ -2,6 +2,14 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Beauty daily-workbench connection · 2026-11-17 candidate
+
+The central catalogue now supports a read-only Beauty workbench summary through the existing shared agent engine and HTTP SDK. The product rechecks current salon and staff access, binds any selected CRM line to a short-lived delegation and returns a compact report without customer names or contact details. Appointment counts and CRM preview sizes are explicitly distinguished. No second model engine, business data store or write capability was introduced.
+
+The central build and 69 isolated database/contract tests passed, followed by 13 focused agent checks. The Beauty consumer passed its build and 424 tests; its final 12-check integration run exercised the actual SDK, central HTTP/agent stack and canonical database reader with synthetic model and policy ports. Forged scopes, expired delegation, revoked sessions, disallowed model actions and malformed replies fail closed. No paid model or production deployment was used.
+
+This connection remains disabled. Durable whole-request report replay, exact production entitlement/budget provisioning and a manager-facing interface are still open. A changed report under the same operation key returns an explicit conflict without silently starting another paid request. Existing product assistance continues on its established path; source publication does not activate a general operational agent.
+
 ## Central agent tool catalogue · 2026-11-05
 
 The shared agent candidate now defines the descriptions, input shapes and product permission bindings for its CRM tools in one central A2 Intelligence catalogue. Beauty and Education advertise their available capability names; each product still checks the current user's authority and executes its own business records. Unknown or altered tool contracts are denied. This gives future products, including Learning, a single reviewed place to register tools while keeping their own domain data and permissions.
