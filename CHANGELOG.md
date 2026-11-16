@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-17 — Read-only status and consumer recovery interface
+
+Added non-executing request inspection over saved assistant results, with current access checks and an additive shared SDK capability. Beauty now has an enabled-only daily report/recovery card. Central build/76 tests, Beauty build/425 tests, 57 interactive states and four logout regressions passed using scripted model output. Source candidate only; no paid model or live activation.
+
 ## 2026-11-17 — Durable read-only recovery candidate
 
 Added encrypted report checkpoints and completed-answer recovery with current access checks and expiry protection. Central build/75 tests and Beauty build/424 tests passed; six final recovery checks covered retrieval-time revocation as well. Real local storage and usage receipts used scripted model output. Mixed write flows, uncertain provider reconciliation and production activation remain open. No paid model was called.

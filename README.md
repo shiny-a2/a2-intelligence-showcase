@@ -2,6 +2,12 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Inspect saved assistant results · 2026-11-17 candidate
+
+The shared platform now exposes read-only request status without executing tools, calling a model or recording another model charge. Current identity, scope and assistant policy are rechecked before returning a saved result. Pending remains explicitly uncertain; it is not a promise that work is running in the background. Existing product integrations retain their established message and approval contracts.
+
+Beauty consumes this capability in an enabled-only daily workbench card with explicit request, check and continuation controls. The central build and 76 tests passed; the consumer build and 425 tests passed, followed by 57 responsive interactive checks and four logout regressions. Scripted model output and local synthetic data were used throughout. No paid provider or production activation occurred. Mixed write recovery, uncertain-provider reconciliation and production provisioning remain open.
+
 ## Durable read-only recovery · 2026-11-17 candidate
 
 The shared agent now saves encrypted report checkpoints before continuing model work and stores the completed answer before delivery. Repeating the same request recovers the original reports or final answer with fresh access and policy checks. Expiry clears private payloads while retaining the duplicate-request guard. The existing model engine and usage ledger still own provider calls and charging.
