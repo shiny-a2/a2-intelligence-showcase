@@ -2,6 +2,14 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Proposal inbox and safe decisions · 2026-11-17 candidate
+
+The shared platform now lists a manager's currently authorized proposals and supports explicit rejection or dismissal before execution. Competing confirmation and dismissal have one durable winner. Dismissal cannot cancel completed, running or uncertain work. Completed receipts remain reviewable after the approval deadline, while expired pending proposals cannot execute, including after waiting for a database lock.
+
+The build and 83 isolated tests passed, plus 20 focused checks and seven final lifecycle checks. Tests used encrypted database receipts, real row contention and the shared HTTP SDK with scripted product effects. The unchanged Beauty connection passed 13 local compatibility checks. A bounded inbox query used its intended index in a disposable 20,000-row metadata fixture. No paid model or production action occurred.
+
+This is central service and SDK progress. The Beauty inbox screen and current CRM write integration still need to be connected and verified; existing Beauty remains on its read-only source candidate. Historical access is not expanded across authority changes. Production activation and uncertain-outcome reconciliation remain open.
+
 ## Inspect saved assistant results · 2026-11-17 candidate
 
 The shared platform now exposes read-only request status without executing tools, calling a model or recording another model charge. Current identity, scope and assistant policy are rechecked before returning a saved result. Pending remains explicitly uncertain; it is not a promise that work is running in the background. Existing product integrations retain their established message and approval contracts.

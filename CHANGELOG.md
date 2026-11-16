@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-17 — Proposal inbox foundation
+
+Added scoped proposal listing, explicit rejection/dismissal and post-lock approval expiry checks. Completed receipts remain reviewable after the approval deadline with current matching access. Build/83 tests, 20 focused checks, seven final lifecycle checks and 13 unchanged Beauty compatibility checks passed. Central source candidate only; no Beauty inbox screen, paid model or live activation is claimed.
+
 ## 2026-11-17 — Read-only status and consumer recovery interface
 
 Added non-executing request inspection over saved assistant results, with current access checks and an additive shared SDK capability. Beauty now has an enabled-only daily report/recovery card. Central build/76 tests, Beauty build/425 tests, 57 interactive states and four logout regressions passed using scripted model output. Source candidate only; no paid model or live activation.
