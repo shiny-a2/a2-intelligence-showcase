@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-17 — Reviewed Beauty CRM consumer
+
+Beauty 0.45.0 connects shared proposals to named previews, explicit approval/rejection/dismissal and canonical internal follow-up creation. Consumer build/439 tests, shared CRM/21 tests and 69 interactive interface states passed with scripted AI and isolated databases. The existing central candidate is unchanged. Disabled source candidate; no paid model or live activation. Mixed-message recovery, uncertain-result reconciliation and notification attention remain open.
+
 ## 2026-11-17 — Proposal inbox foundation
 
 Added scoped proposal listing, explicit rejection/dismissal and post-lock approval expiry checks. Completed receipts remain reviewable after the approval deadline with current matching access. Build/83 tests, 20 focused checks, seven final lifecycle checks and 13 unchanged Beauty compatibility checks passed. Central source candidate only; no Beauty inbox screen, paid model or live activation is claimed.
