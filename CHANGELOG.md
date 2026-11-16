@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-17 — Durable read-only recovery candidate
+
+Added encrypted report checkpoints and completed-answer recovery with current access checks and expiry protection. Central build/75 tests and Beauty build/424 tests passed; six final recovery checks covered retrieval-time revocation as well. Real local storage and usage receipts used scripted model output. Mixed write flows, uncertain provider reconciliation and production activation remain open. No paid model was called.
+
 ## 2026-11-17 — Read-only Beauty workbench candidate
 
 Added the shared daily-report capability and validated its real local HTTP consumer against current salon permissions. Central build/69 tests and the Beauty build/424 tests passed; final focused checks cover report scope and request identity. Disabled pending durable report replay and production policy/budget provisioning. No paid model or live rollout occurred.

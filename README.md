@@ -2,13 +2,19 @@
 
 A2 Intelligence is an isolated, Persian-first assistant platform experiment. Its web app and shared conversation engine are designed for several channels, with tenant-scoped identity, usage limits, and reviewed administration workflows.
 
+## Durable read-only recovery · 2026-11-17 candidate
+
+The shared agent now saves encrypted report checkpoints before continuing model work and stores the completed answer before delivery. Repeating the same request recovers the original reports or final answer with fresh access and policy checks. Expiry clears private payloads while retaining the duplicate-request guard. The existing model engine and usage ledger still own provider calls and charging.
+
+The central build and all 75 isolated tests passed; six final recovery checks also passed after adding access revocation during replay. Tests used real local storage and usage receipts with scripted model output, including a fresh process, lost responses, concurrent retries, changed input, revoked access and expiry. The Beauty consumer build and 424 tests passed. No paid model or production activation occurred. This covers read-only conversations; mixed read/write recovery, uncertain provider reconciliation and production provisioning remain open.
+
 ## Beauty daily-workbench connection · 2026-11-17 candidate
 
 The central catalogue now supports a read-only Beauty workbench summary through the existing shared agent engine and HTTP SDK. The product rechecks current salon and staff access, binds any selected CRM line to a short-lived delegation and returns a compact report without customer names or contact details. Appointment counts and CRM preview sizes are explicitly distinguished. No second model engine, business data store or write capability was introduced.
 
 The central build and 69 isolated database/contract tests passed, followed by 13 focused agent checks. The Beauty consumer passed its build and 424 tests; its final 12-check integration run exercised the actual SDK, central HTTP/agent stack and canonical database reader with synthetic model and policy ports. Forged scopes, expired delegation, revoked sessions, disallowed model actions and malformed replies fail closed. No paid model or production deployment was used.
 
-This connection remains disabled. Durable whole-request report replay, exact production entitlement/budget provisioning and a manager-facing interface are still open. A changed report under the same operation key returns an explicit conflict without silently starting another paid request. Existing product assistance continues on its established path; source publication does not activate a general operational agent.
+This connection remains disabled. The later recovery candidate above addresses read-only report replay; exact production entitlement/budget provisioning and a manager-facing interface are still open. At this earlier baseline, a changed report under the same operation key returned an explicit conflict without silently starting another paid request. Existing product assistance continues on its established path; source publication does not activate a general operational agent.
 
 ## Central agent tool catalogue · 2026-11-05
 
